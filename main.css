@@ -38,6 +38,11 @@ h2{
     padding-block: 5px;
 }
 
+input{
+    width: 100px;
+    height: 20px;
+}
+
 nav{
     background-color: black;
     color: white;
@@ -76,32 +81,26 @@ section p a{
     width: 200px;
 }
 
-.word-game img.hidden{
-    content: url("images/box.png");
-}
-
-#bottom-menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#bottom-menu > :first-child, #bottom-menu > :last-child{
-    flex: 1;
-}
-
-#prediction-input{
-    width: 100px;
-    height: 20px;
-}
-
 .button{
     padding-inline: 10px;
     padding-block: 2px;
     font-size: 20px;
 }
 
-#hearts{
+.bottom-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-menu > :first-child, .bottom-menu > :last-child{
+    flex: 1;
+}
+
+.bottom-menu span{
     padding: 0px;
+}
+
+#hearts{
     color: red;
 }
