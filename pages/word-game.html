@@ -13,5 +13,38 @@
                 <li><a href="word-game.html">Word Prediction Game</a></li>
             </ul>
         </nav>
+        <section class="word-game">
+            <h1>Word Prediction Game</h1>
+            
+            <div>
+                <img class="hidden">
+                <img class="hidden">
+                <img class="hidden">
+                <img class="hidden">
+                <img class="hidden">
+            </div>
+
+            <div id="bottom-menu">            
+                <div>
+                    <p>Score: 0</p>
+                    <p>Lives: <span id="hearts">❤︎❤︎❤︎</span></p>
+                </div>
+                <div>
+                    Prediction: <input id="prediction-input">
+                    <br>
+                    <button class="button" id="submit-button">Submit</button>
+                    <br>
+                    <button class="button" id="reset-button" hidden>Reset</button>
+                </div>
+                <!-- Empty div to trick the flexbox -->
+                <div></div>               
+            </div>
+            
+        </section>
+        <footer>
+            <p>Copyright © 2025 Yahya Ara</p>
+        </footer>
+
+        <script src="script.js"></script>
     </body>
 </html>
