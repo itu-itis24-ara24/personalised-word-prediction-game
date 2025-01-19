@@ -22,6 +22,25 @@ button:hover{
     cursor: pointer;
 }
 
+figcaption{
+    display: table-caption;
+    caption-side: bottom;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-inline: 20px;
+}
+
+figure {
+    display: inline-table;
+    margin: 0px;
+}
+
+figure img {
+    display: block;
+    height: 500px;
+    width: auto;
+ }
+
 footer{
     background-color: black;
     color: white;
@@ -71,9 +90,17 @@ section{
     padding-block: 1px;
 }
 
+section b{
+    margin-inline: -8px;
+}
+
 section p a{
     font-style: italic;
     margin-inline: -8px;
+}
+
+.gallery{
+    text-align: center;
 }
 
 .word-game{
