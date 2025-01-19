@@ -38,6 +38,10 @@ h2{
     padding-block: 5px;
 }
 
+i{
+    margin-inline: -8px;
+}
+
 input{
     width: 100px;
     height: 20px;
