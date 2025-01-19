@@ -39,7 +39,7 @@ function onSubmitButtonClicked(){
         if(word.includes(prediction)){
             playerScore += 20;
             score.textContent = playerScore;
-            boxes[initialWord.indexOf(prediction)].src = `../images/letters/${prediction}.png`;
+            boxes[initialWord.indexOf(prediction)].src = `../images/letters/${prediction}.svg`;
             word = word.replace(prediction,'');
         } else {
             lives--;
@@ -53,7 +53,7 @@ function onSubmitButtonClicked(){
 
             for (let i = 0; i < boxes.length; i++) {
                 console.log(initialWord[i]);
-                boxes[i].src = `../images/letters/${initialWord[i]}.png`;
+                boxes[i].src = `../images/letters/${initialWord[i]}.svg`;
             }
         } else {
             lives = 0;
